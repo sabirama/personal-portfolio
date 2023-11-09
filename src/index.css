@@ -1,0 +1,19 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  background-color: rgb(32, 30, 30);
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding: 0 0.5rem;
+}

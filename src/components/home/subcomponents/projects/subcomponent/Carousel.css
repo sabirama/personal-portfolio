@@ -1,0 +1,97 @@
+@media screen and (max-width: 768px) {
+  .carousel {
+    overflow: hidden;
+    width: 400px;
+    height: 320px;
+    margin: auto;
+    position: relative;
+  }
+
+  .carousel-container {
+    display: flex;
+    height: 320px;
+    width: max-content;
+  }
+
+  .carousel-item {
+    flex: 0 0 400px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.295);
+    position: relative;
+  }
+
+  .web-image {
+    width: 380px;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .carousel {
+    overflow: hidden;
+    width: 1000px;
+    height: 600px;
+    margin: auto;
+    position: relative;
+  }
+
+  .carousel-container {
+    display: flex;
+    height: 600px;
+    width: max-content;
+  }
+
+  .carousel-item {
+    flex: 0 0 960px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.295);
+    position: relative;
+  }
+
+  .web-image {
+    width: 1000px;
+    height: auto;
+  }
+}
+
+.site-link {
+  position: absolute;
+  top: 1rem;
+  left: 0;
+  right: 0;
+}
+
+.site-link:hover {
+  color: lightblue;
+}
+
+.controls button {
+  border: none;
+  background: none;
+  position: absolute;
+  font-size: 30px;
+  color: rgb(53, 53, 53);
+  padding: 0 1rem;
+}
+
+.controls button:hover {
+  background-color: rgba(173, 216, 230, 0.5);
+}
+
+.prev {
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.next {
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
