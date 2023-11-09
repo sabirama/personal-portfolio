@@ -55,16 +55,9 @@
   }
 
   .web-image {
-    width: 1000px;
+    width: 986px;
     height: auto;
   }
-}
-
-.site-link {
-  position: absolute;
-  top: 1rem;
-  left: 0;
-  right: 0;
 }
 
 .site-link:hover {

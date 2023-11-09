@@ -21,6 +21,7 @@ const Carousel = () => {
     } else {
       setCarouselWidth(-1000);
     }
+    
   }, [window.innerWidth]);
 
   return (
@@ -32,21 +33,21 @@ const Carousel = () => {
         >
           <div id="0" className="carousel-item">
             <a href="https://sabirama.github.io/mp1.gadgetbyte" className="site-link">
-              Gadgetbyte
+              <p>Gadgetbyte</p>
+              <img src="/mp1.jpg" alt="site-1" className="web-image" />
             </a>
-            <img src="/mp1.jpg" alt="site-1" className="web-image" />
           </div>
           <div id="1" className="carousel-item">
             <a href="https://pokemon-tcg-mp2.onrender.com" className="site-link">
-              Poke TCG Pulse
+              <p>Poke TCG Pulse</p>
+              <img src="/mp2.jpg" alt="site-2" className="web-image" />
             </a>
-            <img src="/mp2.jpg" alt="site-2" className="web-image" />
           </div>
           <div id="2" className="carousel-item">
             <a href="https://readersshelf.onrender.com/" className="site-link">
-              Readers Shelf
+              <p>Readers Shelf</p>
+              <img src="/capstone.jpg" alt="site-3" className="web-image" />
             </a>
-            <img src="/capstone.jpg" alt="site-3" className="web-image" />
           </div>
         </div>
         <div className="controls">
