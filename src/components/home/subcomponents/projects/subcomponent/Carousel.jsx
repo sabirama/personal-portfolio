@@ -7,21 +7,18 @@ const Carousel = () => {
 
   function prev() {
     setId((id - 1 + 3) % 3);
-    console.log(id);
   }
 
   function next() {
     setId((id + 1) % 3);
-    console.log(id);
   }
 
   useEffect(() => {
     if (window.innerWidth <= 768) {
-      setCarouselWidth(-400);
+      setCarouselWidth(-360);
     } else {
       setCarouselWidth(-1000);
     }
-    
   }, [window.innerWidth]);
 
   return (
