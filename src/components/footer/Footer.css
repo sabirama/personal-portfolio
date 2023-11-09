@@ -16,6 +16,10 @@
   padding: 0.25rem;
 }
 
+.footer-links li a:hover {
+  color: lightblue;
+}
+
 .copyright {
   display: flex;
   justify-content: center;
