@@ -1,0 +1,24 @@
+#footer {
+  background-color: grey;
+  height: fit-content;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-links h3 {
+  text-align: left;
+}
+
+.footer-links li {
+  padding: 0.25rem;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+
+  padding: 2rem;
+}

@@ -17,3 +17,7 @@ a {
   color: white;
   padding: 0 0.5rem;
 }
+
+ul {
+  list-style: none;
+}

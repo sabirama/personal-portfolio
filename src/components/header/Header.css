@@ -1,0 +1,19 @@
+#header nav {
+  display: flex;
+  height: 40px;
+  align-items: center;
+}
+
+#header a:hover {
+  display: flex;
+  color: lightblue;
+  background-color: rgb(46, 46, 145);
+  height: 40px;
+  align-items: center;
+}
+
+.home {
+  height: 20px;
+  padding: 0 4rem;
+  filter: invert(100%);
+}

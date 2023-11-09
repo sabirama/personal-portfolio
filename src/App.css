@@ -8,31 +8,54 @@
   top: 0;
   display: flex;
   justify-content: space-between;
-  padding: 1rem;
+  align-items: center;
+  padding: 0;
   background-color: rgb(117, 117, 117);
 }
 
 .section {
   max-width: 1780px;
-  height: 90vh;
-  border: white solid 2px;
+  min-height: 720px;
+  max-height: fit-content;
   margin: 1rem auto 4rem;
-  padding: 2rem;
+  padding: 2rem 0;
 }
 
 .card {
   background-color: rgba(250, 235, 215, 0.425);
   height: 400px;
   width: 300px;
+  border-radius: 0.5rem;
+}
+
+.card-img {
+  width: 90%;
+  height: auto;
+}
+
+.card-text {
+  height: 30%;
+}
+
+.icon {
+  height: 40px;
+  width: auto;
 }
 
 .container {
   display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-container {
+  display: flex;
+  flex-direction: column;
   gap: 2rem;
   justify-content: center;
   align-items: center;
-  height: 100%;
-  width: 100%;
 }
 
 .space-between {
@@ -45,4 +68,14 @@
 
 .space-evenly {
   justify-content: space-evenly;
+}
+
+@media screen and (min-width: 1000px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+  }
 }

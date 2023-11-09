@@ -1,0 +1,51 @@
+#services .container {
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li {
+  text-align: left;
+}
+
+.service {
+  margin-bottom: 4rem;
+}
+
+.service p {
+  margin: 0 1rem;
+}
+
+.tools {
+  padding: 0 1rem;
+}
+
+.tools:hover {
+  animation: wave 2s infinite linear;
+}
+
+@keyframes wave {
+  0% {
+    transform: translateY(0);
+  }
+
+  25% {
+    transform: translateY(4px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(-4px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.tools-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
