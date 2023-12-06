@@ -22,3 +22,19 @@ ul {
   list-style: none;
   padding: 0;
 }
+
+.space-between {
+  justify-content: space-between;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.space-evenly {
+  justify-content: space-evenly;
+}
+
+.relative {
+  position: relative;
+}

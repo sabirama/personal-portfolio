@@ -2,22 +2,14 @@
   margin: 0 auto;
   text-align: center;
 }
-
-#header {
-  position: sticky;
-  top: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0;
-  background-color: rgb(117, 117, 117);
+#root > :nth-child(odd) {
+  background-color: rgba(250, 235, 215, 0.425);
 }
 
 .section {
-  max-width: 1780px;
-  min-height: 720px;
+  min-height: 90vh;
   max-height: fit-content;
-  margin: 1rem auto 4rem;
+  margin: auto;
   padding: 2rem 0;
 }
 
@@ -38,7 +30,7 @@
 }
 
 .icon {
-  height: 40px;
+  height: 100px;
   width: auto;
 }
 
@@ -54,20 +46,47 @@
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  justify-content: center;
-  align-items: center;
 }
 
-.space-between {
-  justify-content: space-between;
+.hover-pop-up {
+  position: absolute;
+  top: 5px;
+  left: 50px;
+  text-align: left;
+  font-size: 20px;
+  background: rgba(250, 235, 215, 0.8);
+  color: black;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  display: none;
+  width: 200px;
+  z-index: 100;
+  animation: fade-in 0.6s linear;
 }
 
-.space-around {
-  justify-content: space-around;
+.pop-up-container {
+  position: relative;
+  width: fit-content;
 }
 
-.space-evenly {
-  justify-content: space-evenly;
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+}
+
+.pop-up-container:hover > .hover-pop-up {
+  display: block;
+}
+
+.hover-pop-up > a {
+  color: darkslategray;
+  padding: 0;
+  border-bottom: 2px solid black;
 }
 
 @media screen and (min-width: 1000px) {

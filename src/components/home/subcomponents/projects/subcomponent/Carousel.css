@@ -1,12 +1,13 @@
-@media screen and (max-width: 768px) {
-  .carousel {
-    overflow: hidden;
-    width: 360px;
-    height: 120%;
-    margin: auto;
-    position: relative;
-  }
+.carousel {
+  overflow: hidden;
+  width: 360px;
+  height: 120%;
+  margin: auto;
+  position: relative;
+  box-shadow: 0 5px 20px black;
+}
 
+@media screen and (max-width: 768px) {
   .carousel-container {
     display: flex;
     height: 120%;
@@ -31,11 +32,8 @@
 
 @media screen and (min-width: 768px) {
   .carousel {
-    overflow: hidden;
     width: 1000px;
     height: 600px;
-    margin: auto;
-    position: relative;
   }
 
   .carousel-container {

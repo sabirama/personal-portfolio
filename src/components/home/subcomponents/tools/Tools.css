@@ -1,0 +1,45 @@
+.tools-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 5rem;
+  max-width: 1240px;
+}
+
+@media screen and (min-width: 720px) {
+  .tools-container {
+    margin: 0 auto;
+    flex-direction: row;
+  }
+}
+
+section.section.col-container > h2 {
+  padding-bottom: 5rem;
+}
+
+.tools {
+  padding: 0 1rem;
+}
+
+.tools:hover {
+  animation: wave 2s infinite linear;
+}
+
+@keyframes wave {
+  0% {
+    transform: translateY(0);
+  }
+
+  25% {
+    transform: translateY(4px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(-4px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

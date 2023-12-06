@@ -1,6 +1,6 @@
-const FullStack = () => {
+const FullStack = (prop) => {
   return (
-    <div className="card service">
+    <div className="card service" onClick={() => prop.click(3)}>
       <div className="card-text">
         <h4>Full-Stack Developmnet</h4>
         <p>Create both client side (front-end) and server side (back-end) of the website.</p>

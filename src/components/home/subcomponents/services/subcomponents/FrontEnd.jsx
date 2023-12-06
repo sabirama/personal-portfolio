@@ -1,6 +1,6 @@
-const FrontEnd = () => {
+const FrontEnd = (prop) => {
   return (
-    <div className="card service">
+    <div className="card service" onClick={() => prop.click(1)}>
       <div className="card-text">
         <h4>Front-End Development</h4>
         <p>

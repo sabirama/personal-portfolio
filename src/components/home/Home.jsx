@@ -1,6 +1,7 @@
 import HeroSection from "./subcomponents/hero-section/HeroSection";
 import Projects from "./subcomponents/projects/Projects";
 import Services from "./subcomponents/services/Services";
+import Tools from "./subcomponents/tools/Tools";
 
 const Home = () => {
   return (
@@ -8,6 +9,7 @@ const Home = () => {
       <HeroSection />
       <Projects />
       <Services />
+      <Tools />
     </>
   );
 };

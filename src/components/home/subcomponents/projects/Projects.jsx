@@ -1,5 +1,5 @@
 import Carousel from "./subcomponent/Carousel";
-import "./Projects.css";
+
 const Projects = () => {
   return (
     <section id="projects" className="section">
