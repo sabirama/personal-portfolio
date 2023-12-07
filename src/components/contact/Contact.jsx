@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -39,6 +39,10 @@ const Contact = () => {
     }
     console.log("test");
   };
+
+  useEffect(() => {
+    scrollTo(top);
+  }, []);
 
   return (
     <section id="contact" className="section">

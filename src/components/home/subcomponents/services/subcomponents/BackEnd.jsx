@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const BackEnd = (prop) => {
   return (
     <div className="card service relative" onClick={() => prop.click(2)}>
@@ -9,7 +11,10 @@ const BackEnd = (prop) => {
       <div className="overlay">
         <h4 className="overlay-text">
           <h3>More Details...</h3>
-          <a href="#">Have a Project in Mind?{<br />}Contact Me...</a>
+          <a href="#">
+            Have a Project in Mind?{<br />}
+            <Link to="/contact">Contact Me...</Link>
+          </a>
         </h4>
       </div>
     </div>

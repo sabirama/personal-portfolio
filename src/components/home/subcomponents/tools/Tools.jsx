@@ -12,7 +12,7 @@ const Tools = () => {
             presentation of web pages. It's made up of three codes: HTML, which keeps the structure; CSS, which affects
             the presentation; and JavaScript, which creates interactive effects within web browsers.
           </div>
-          <img src="/icons/html.svg" alt="html" className="icon tools" />
+          <img src="/icons/html.svg" alt="html" className="tools" />
           <p>HTML5</p>
         </span>
 
@@ -22,7 +22,7 @@ const Tools = () => {
             CSS2. CSS3 is used for the same thing as CSS, namely to style web pages and make them more attractive and
             user-friendly.
           </div>
-          <img src="/icons/css.svg" alt="css" className="icon tools" />
+          <img src="/icons/css.svg" alt="css" className="tools" />
           <p>CSS3</p>
         </span>
 
@@ -32,7 +32,7 @@ const Tools = () => {
             development, and lots more. It allows you to implement dynamic features on web pages that cannot be done
             with only HTML and CSS.
           </div>
-          <img src="/icons/javascript.svg" alt="javascript" className="icon tools" />
+          <img src="/icons/javascript.svg" alt="javascript" className="tools" />
           <p>Javascript</p>
         </span>
         <span className="pop-up-container">
@@ -42,7 +42,7 @@ const Tools = () => {
             product managers, writers and developers and helps anyone involved in the design process contribute, give
             feedback, and make better decisions, faster.
           </div>
-          <img src="/icons/figma.svg" alt="figma" className="icon tools" />
+          <img src="/icons/figma.svg" alt="figma" className="tools" />
           <p>Figma</p>
         </span>
         <span className="pop-up-container">
@@ -50,7 +50,7 @@ const Tools = () => {
             Developers use <a href="https://nodejs.org/en">Node.js</a> to create server-side web applications, and it is
             perfect for data-intensive applications since it uses an asynchronous, event-driven model.
           </div>
-          <img src="/icons/Node.svg" alt="node" className="icon tools" />
+          <img src="/icons/Node.svg" alt="node" className="tools" />
           <p>Node.js</p>
         </span>
         <span className="pop-up-container">
@@ -59,7 +59,7 @@ const Tools = () => {
             things, was used to build Instagram.com. It aims to allow developers to create fast user interfaces for
             websites and applications alike
           </div>
-          <img src="/icons/React.svg" alt="react" className="icon tools" />
+          <img src="/icons/React.svg" alt="react" className="tools" />
           <p>React.js</p>
         </span>
         <span className="pop-up-container">
@@ -69,7 +69,7 @@ const Tools = () => {
             following just three commands. Vite is a bridge between Twig/Craft CMS and the next-generation frontend
             build tool Vite.
           </div>
-          <img src="/icons/Vite.svg" alt="vite" className="icon tools" />
+          <img src="/icons/Vite.svg" alt="vite" className="tools" />
           <p>Vite.js</p>
         </span>
         <span className="pop-up-container">
@@ -78,7 +78,7 @@ const Tools = () => {
             solution for Windows that integrates PHP, Apache, Nginx, MySQL, NodeJS, and several other software to ease
             software development for PHP and NodeJS applications.
           </div>
-          <img src="/icons/laragon.svg" alt="laragon" className="icon tools" />
+          <img src="/icons/laragon.svg" alt="laragon" className="tools" />
           <p>Laragon</p>
         </span>
         <span className="pop-up-container">
@@ -87,7 +87,7 @@ const Tools = () => {
             extensible PHP-based websites and web applications at scale. Before creating a web app or website, you need
             to make a foundational decision as to what technology you are going to use.
           </div>
-          <img src="/icons/laravel.svg" alt="laravel" className="icon tools" />
+          <img src="/icons/laravel.svg" alt="laravel" className="tools" />
           <p>Laravel</p>
         </span>
         <span className="pop-up-container">
@@ -96,7 +96,7 @@ const Tools = () => {
             regression tests, and more. Postman's Node.js-based runtime contains support for common patterns and
             libraries that you can use to build tests quickly.
           </div>
-          <img src="/icons/Postman.svg" alt="postman" className="icon tools" />
+          <img src="/icons/Postman.svg" alt="postman" className="tools" />
           <p>Postman</p>
         </span>
         <span className="pop-up-container">
@@ -106,7 +106,7 @@ const Tools = () => {
             e-commerce, and logging applications. The most common use for mySQL however, is for the purpose of a web
             database.{" "}
           </div>
-          <img src="/icons/MySql.svg" alt="mysql" className="icon tools" />
+          <img src="/icons/MySql.svg" alt="mysql" className="tools" />
           <p>MySql</p>
         </span>
       </div>

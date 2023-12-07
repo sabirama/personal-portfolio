@@ -4,6 +4,16 @@
   padding-top: 1rem;
 }
 
+#footer .container > ul {
+  display: flex;
+  padding: 1rem;
+}
+
+#footer .container > ul > li:hover {
+  transform: scale(120%);
+  color: lightblue;
+}
+
 .footer-links {
   display: flex;
   justify-content: space-evenly;
