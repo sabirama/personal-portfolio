@@ -23,7 +23,7 @@ const HeroSection = () => {
         </HashLink>
         <Link to="/contact">
           <span>Send a Message</span>
-        </a>
+        </Link>
       </div>
     </section>
   );
