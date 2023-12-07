@@ -1,4 +1,5 @@
 import { HashLink } from "react-router-hash-link";
+import { Link } from "react-router-dom";
 import "./HeroSection.css";
 
 const HeroSection = () => {
