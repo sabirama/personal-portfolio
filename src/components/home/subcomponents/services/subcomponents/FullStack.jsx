@@ -11,10 +11,10 @@ const FullStack = (prop) => {
       <div className="overlay">
         <h4 className="overlay-text">
           <h3>More Details...</h3>
-          <a href="#">
+          <p>
             Have a Project in Mind?{<br />}
             <Link to="/contact">Contact Me...</Link>
-          </a>
+          </p>
         </h4>
       </div>
     </div>
