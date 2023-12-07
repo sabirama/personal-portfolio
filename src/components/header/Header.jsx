@@ -11,7 +11,14 @@ const Header = () => {
       <nav>
         <HashLink to={"/#projects"}>Projects</HashLink>
         <HashLink to={"/#services"}>Services</HashLink>
-        <Link to="/contact">Contact</Link>
+        <Link
+          to="/contact"
+          onClick={() => {
+            scrollTo(top);
+          }}
+        >
+          Contact
+        </Link>
       </nav>
     </header>
   );
