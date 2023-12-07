@@ -21,7 +21,7 @@ const HeroSection = () => {
         <HashLink to="#services">
           <span>Service</span>
         </HashLink>
-        <a href="mailto:markcondes21@gmail.com">
+        <Link to="/contact">
           <span>Send a Message</span>
         </a>
       </div>
