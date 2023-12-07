@@ -1,7 +1,6 @@
 #services .container {
   margin: auto;
-  justify-content: center;
-  align-items: center;
+  gap: 4rem;
 }
 
 ul li {

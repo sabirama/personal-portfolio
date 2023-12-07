@@ -1,6 +1,6 @@
 const FrontEnd = (prop) => {
   return (
-    <div className="card service" onClick={() => prop.click(1)}>
+    <div className="card service relative" onClick={() => prop.click(1)}>
       <div className="card-text">
         <h4>Front-End Development</h4>
         <p>
@@ -9,6 +9,12 @@ const FrontEnd = (prop) => {
         </p>
       </div>
       <img src="/icons/front-end.svg" alt="front-end" className="card-img" />
+      <div className="overlay">
+        <h4 className="overlay-text">
+          <h3>More Details...</h3>
+          <a href="#">Have a Project in Mind?{<br />}Contact Me...</a>
+        </h4>
+      </div>
     </div>
   );
 };

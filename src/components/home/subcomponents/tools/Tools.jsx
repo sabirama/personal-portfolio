@@ -4,7 +4,7 @@ import "./Tools.css";
 const Tools = () => {
   return (
     <section id="tools" className=" section col-container">
-      <h2>Tools</h2>
+      <h2>Tools I'm Using</h2>
       <div className="tools-container">
         <span className="pop-up-container">
           <div className="hover-pop-up">
@@ -92,6 +92,15 @@ const Tools = () => {
         </span>
         <span className="pop-up-container">
           <div className="hover-pop-up">
+            <a href="https://www.postman.com/">Postman</a> can be used to write functional tests, integration tests,
+            regression tests, and more. Postman's Node.js-based runtime contains support for common patterns and
+            libraries that you can use to build tests quickly.
+          </div>
+          <img src="/icons/Postman.svg" alt="postman" className="icon tools" />
+          <p>Postman</p>
+        </span>
+        <span className="pop-up-container">
+          <div className="hover-pop-up">
             <a href="https://www.mysql.com/">MySQL</a> is a relational database management system based on SQL –
             Structured Query Language. The application is used for a wide range of purposes, including data warehousing,
             e-commerce, and logging applications. The most common use for mySQL however, is for the purpose of a web
@@ -99,15 +108,6 @@ const Tools = () => {
           </div>
           <img src="/icons/MySql.svg" alt="mysql" className="icon tools" />
           <p>MySql</p>
-        </span>
-        <span className="pop-up-container">
-          <div className="hover-pop-up">
-            <a href="https://www.postman.com/">Postman</a> can be used to write functional tests, integration tests,
-            regression tests, and more. Postman's Node.js-based runtime contains support for common patterns and
-            libraries that you can use to build tests quickly.
-          </div>
-          <img src="/icons/Postman.svg" alt="postman" className="icon tools" />
-          <p>Postman</p>
         </span>
       </div>
     </section>

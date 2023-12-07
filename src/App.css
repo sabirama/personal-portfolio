@@ -8,7 +8,6 @@
 
 .section {
   min-height: 90vh;
-  max-height: fit-content;
   margin: auto;
   padding: 2rem 0;
 }
@@ -37,9 +36,8 @@
 .container {
   display: flex;
   flex-direction: column;
-  gap: 4rem;
-  justify-content: center;
-  align-items: center;
+  height: 100%;
+  width: 100%;
 }
 
 .col-container {
@@ -50,8 +48,8 @@
 
 .hover-pop-up {
   position: absolute;
-  top: 5px;
-  left: 50px;
+  top: 50px;
+  left: 0%;
   text-align: left;
   font-size: 20px;
   background: rgba(250, 235, 215, 0.8);
@@ -64,11 +62,6 @@
   animation: fade-in 0.6s linear;
 }
 
-.pop-up-container {
-  position: relative;
-  width: fit-content;
-}
-
 @keyframes fade-in {
   0% {
     opacity: 0;
@@ -79,6 +72,11 @@
   }
 }
 
+.pop-up-container {
+  position: relative;
+  width: fit-content;
+}
+
 .pop-up-container:hover > .hover-pop-up {
   display: block;
 }
@@ -87,6 +85,38 @@
   color: darkslategray;
   padding: 0;
   border-bottom: 2px solid black;
+}
+
+.overlay {
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+* .overlay:hover {
+  position: absolute;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(122, 122, 121, 0.8);
+  top: 0;
+  left: 0;
+  border-radius: 0.5rem;
+  opacity: 1;
+  z-index: 100;
+}
+
+.overlay-text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  bottom: 0;
+  left: 0;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 1000px) {

@@ -3,12 +3,15 @@
   flex-direction: column;
   flex-wrap: wrap;
   gap: 5rem;
+  width: 80%;
   max-width: 1240px;
+  align-items: center;
+  margin: 20px auto;
+  justify-content: center;
 }
 
 @media screen and (min-width: 720px) {
   .tools-container {
-    margin: 0 auto;
     flex-direction: row;
   }
 }

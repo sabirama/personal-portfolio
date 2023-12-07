@@ -2,14 +2,19 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
   background-color: rgb(32, 30, 30);
   color: white;
+}
+
+section {
+  gap: 2rem;
 }
 
 a {
@@ -21,6 +26,48 @@ a {
 ul {
   list-style: none;
   padding: 0;
+}
+
+form {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+}
+
+input,
+textarea {
+  resize: none;
+  width: 90%;
+  padding: 8px;
+  outline: none;
+  box-sizing: border-box;
+  border: none;
+  background: none;
+  box-shadow: 0 0 2px lightblue, inset 0 0 2px lightblue;
+  color: white;
+}
+
+fieldset {
+  width: 100%;
+  margin: auto;
+  border-radius: 1rem;
+  padding-bottom: 8px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 8px;
+}
+
+legend {
+  text-align: left;
+  margin-left: 30px;
+  margin-bottom: 8px;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
 }
 
 .space-between {
@@ -37,4 +84,12 @@ ul {
 
 .relative {
   position: relative;
+}
+
+.mt-1 {
+  margin-top: 1rem !important;
+}
+
+.col {
+  flex-direction: column;
 }

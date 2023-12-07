@@ -19,10 +19,10 @@ const HeroSection = () => {
 
       <div>
         <HashLink to="#services">
-          <span>Check Services</span>
+          <span>Service</span>
         </HashLink>
         <a href="mailto:markcondes21@gmail.com">
-          <span>Email Me</span>
+          <span>Send a Message</span>
         </a>
       </div>
     </section>
