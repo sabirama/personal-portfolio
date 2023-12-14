@@ -10,7 +10,7 @@ const BackEnd = (prop) => {
       <img src="./icons/back-end.svg" alt="back-end" className="card-img" />
       <div className="overlay">
         <h4 className="overlay-text">
-          <h3>More Details...</h3>
+          <p>More Details...</p>
           <p>
             Have a Project in Mind?{<br />}
             <Link to="/contact">Contact Me...</Link>

@@ -13,7 +13,7 @@ const FrontEnd = (prop) => {
       <img src="/icons/front-end.svg" alt="front-end" className="card-img" />
       <div className="overlay">
         <h4 className="overlay-text">
-          <h3>More Details...</h3>
+          <p>More Details...</p>
           <p>
             Have a Project in Mind?{<br />}
             <Link to="/contact">Contact Me...</Link>

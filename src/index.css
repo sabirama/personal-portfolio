@@ -90,6 +90,26 @@ legend {
   margin-top: 1rem !important;
 }
 
+.mt-2 {
+  margin-top: 2rem !important;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
 .col {
   flex-direction: column;
+}
+
+.gap-2 {
+  gap: 2rem;
+}
+
+.gap-4 {
+  gap: 4rem;
+}
+
+.mw-300 {
+  max-width: 300px;
 }

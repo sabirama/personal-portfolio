@@ -10,7 +10,7 @@ const FullStack = (prop) => {
       <img src="/icons/full-stack.svg" alt="full-stack" className="card-img" />
       <div className="overlay">
         <h4 className="overlay-text">
-          <h3>More Details...</h3>
+          <p>More Details...</p>
           <p>
             Have a Project in Mind?{<br />}
             <Link to="/contact">Contact Me...</Link>
